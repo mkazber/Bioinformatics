@@ -1,0 +1,65 @@
+# -*- coding: utf-8 -*-
+# komentarz
+#trzeba pilnować wcięć w programie
+#ctrl+/ cała linia zakomentowana
+#string w '' lub ""
+from builtins import print
+
+#x="A"
+#y='kowalski'
+#print(x+y)
+
+#zbior = "Uniwersytet w Bialymstoku"
+#zbior.find("Bialymstoku")
+#zbior.replace("Bialymstoku","Warszawie")
+#print(zbior.replace("Bialymstoku","Warszawie"))
+
+#amino={'A':'Ala','C':'Cys','E':'Glu'}
+#print(" C jest oznaczeniem dla:" +amino['C'])
+#print(amino['A'])
+#print(amino.items())
+#print(amino.keys())
+#print(amino.values())
+
+#def main():
+#    for aa in amino.values():
+#        print(aa)
+#main()
+
+#zbior1 =set(['CP0.1','EF3.1','EF3.1'])
+#zbior2 = set(['CP0.2','EF3.1','EF3.2'])
+#wynik = zbior1 & zbior2
+#print(wynik)
+
+# from sil import silnia
+#
+# n=10
+# print(int(n))
+# k=5
+#
+# dwumian=silnia(n)/(silnia(k)*silnia(n-k))
+#
+# print(dwumian)
+
+# a='Dziś piekny dzień. Słoneczko świeci na ładne dzieci.'
+# b='hej'
+# plik1=open('plik.txt','w')
+# plik1.write(a)
+# plik1.close()
+# plik2=open('plik.txt','r')
+# print(plik2.read())
+# plik2=open('plik.txt','r').read()
+# print(plik2)
+
+# dna="CCGATTACGT"
+dna="AAGCTA"
+# dna="ATGTGTGGAATTGTTGGCGCGATCGCGCAA"
+if len(dna) >=10 and len(dna)<=25:
+    a=dna.replace('C','G')
+    a=b=dna.replace('G','C')
+    b=c=dna.replace('T','U')
+    c=d=dna.replace('A','T')
+    print(d)
+else:
+    print("Zła długość")
+
